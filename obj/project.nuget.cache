@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/95wsI9tsAA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thuas\\OneDrive\\Desktop\\programacion 4\\clase1\\MathApi\\MathApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thuas\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.11\\microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
+    "C:\\Users\\thuas\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}

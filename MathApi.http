@@ -1,0 +1,5 @@
+@MathApi_HostAddress = http://localhost:5042
+
+GET {{MathApi_HostAddress}}/api/math/square/2
+Accept: application/json
+
