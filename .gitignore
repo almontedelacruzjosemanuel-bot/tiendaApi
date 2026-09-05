@@ -1,0 +1,43 @@
+# .NET / Visual Studio
+bin/
+obj/
+.vs/
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# NuGet
+packages/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Test results
+TestResults/
+
+# Coverage
+coverage/
+
+# Environment variables
+.env
+.env.*
+
+# Local configuration / secrets
+appsettings.Development.json
+appsettings.Local.json
+
+# OS files
+.DS_Store
+Thumbs.db

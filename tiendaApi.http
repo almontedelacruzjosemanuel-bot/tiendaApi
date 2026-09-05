@@ -1,0 +1,5 @@
+@tiendaApi_HostAddress = http://localhost:5042
+
+GET {{tiendaApi_HostAddress}}/api/productos
+Accept: application/json
+

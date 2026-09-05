@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thuas\\OneDrive\\Desktop\\programacion 4\\clase1\\MathApi\\MathApi.csproj": {}
+    "C:\\Users\\thuas\\OneDrive\\Desktop\\programacion 4\\Clase1\\tiendaApi\\MathApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thuas\\OneDrive\\Desktop\\programacion 4\\clase1\\MathApi\\MathApi.csproj": {
+    "C:\\Users\\thuas\\OneDrive\\Desktop\\programacion 4\\Clase1\\tiendaApi\\MathApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thuas\\OneDrive\\Desktop\\programacion 4\\clase1\\MathApi\\MathApi.csproj",
+        "projectUniqueName": "C:\\Users\\thuas\\OneDrive\\Desktop\\programacion 4\\Clase1\\tiendaApi\\MathApi.csproj",
         "projectName": "MathApi",
-        "projectPath": "C:\\Users\\thuas\\OneDrive\\Desktop\\programacion 4\\clase1\\MathApi\\MathApi.csproj",
+        "projectPath": "C:\\Users\\thuas\\OneDrive\\Desktop\\programacion 4\\Clase1\\tiendaApi\\MathApi.csproj",
         "packagesPath": "C:\\Users\\thuas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thuas\\OneDrive\\Desktop\\programacion 4\\clase1\\MathApi\\obj\\",
+        "outputPath": "C:\\Users\\thuas\\OneDrive\\Desktop\\programacion 4\\Clase1\\tiendaApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thuas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -46,9 +46,17 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.79, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.11, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[7.0.2, )"
             }
           },
           "imports": [
