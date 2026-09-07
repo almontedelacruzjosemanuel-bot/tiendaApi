@@ -1,5 +1,32 @@
 @tiendaApi_HostAddress = http://localhost:5042
 
+### Obtener todos los productos
 GET {{tiendaApi_HostAddress}}/api/productos
 Accept: application/json
 
+### Obtener producto por ID
+GET {{tiendaApi_HostAddress}}/api/productos/2
+Accept: application/json
+
+### Crear producto
+POST {{tiendaApi_HostAddress}}/api/productos
+Content-Type: application/json
+
+{
+  "nombre": "Monitor Samsung",
+  "precio": 250.00,
+  "stock": 10
+}
+
+### Actualizar producto
+PUT {{tiendaApi_HostAddress}}/api/productos/2
+Content-Type: application/json
+
+{
+  "nombre": "Mouse Logitech MX",
+  "precio": 35.50,
+  "stock": 25
+}
+
+### Eliminar producto
+DELETE {{tiendaApi_HostAddress}}/api/productos/2
